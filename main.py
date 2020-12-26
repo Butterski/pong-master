@@ -13,7 +13,7 @@ blue = win32api.RGB(0, 0, 255)
 def moveMouse(x, y):
     win32api.SetCursorPos((x, y))
 """
-pic = pyautogui.screenshot(region=(1470, 175, 825, 745))ąąąą
+pic = pyautogui.screenshot(region=(1470, 175, 825, 745))
 pic.save(r"savedimage.png")
 """
 
